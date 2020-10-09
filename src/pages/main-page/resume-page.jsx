@@ -25,14 +25,17 @@ const Resume = () => {
                 </div> 
            
             <div className="gallery__item gallery__item--2">
-                <Link to='/about'>
-                    <div className="menu-item">
-                        <h2>About</h2>
+              
+                    <div className="resume-text">
+                        <h2>EDUCATION</h2>
+                        <p>2008-2013. Vinnytsia National Technical University. 
+                            Faculty of Information Technologies and Computer Engineering. 
+                            Specialty - computer systems and networks</p>
                     </div>
-                </Link>
+         
             </div>
             <div className="gallery__item gallery__item--3">
-                <Link to='/resume'>
+                <Link to='/'>
                     <div className="menu-item">
                         <h2>Resume</h2>
                     </div>

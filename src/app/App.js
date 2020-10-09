@@ -1,21 +1,30 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 import Main from '../pages/main-page/main-page';
 import Main2 from '../pages/main-page/main-page2';
+import About from '../pages/main-page/about-page';
+import Resume from '../pages/main-page/resume-page';
 import '../component/sass/main.scss';
 
 const App = () => {
   return (
  <React.Fragment>
-   <Main2 />
+     <Router>
+   {/* <Main2 /> */}
 
 
-        {/* <Switch>
+        <Switch>
           <Route exact path='/' component={Main2} />
-          <Route  path='/test' component={Main} />
-        </Switch> */}
-    
+          <Route  path='/about' component={About} />
+          <Route  path='/resume' component={Resume} />
+        </Switch>
+        </Router>
  </React.Fragment>
   );
 }
