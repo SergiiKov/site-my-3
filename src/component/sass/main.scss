@@ -5,10 +5,11 @@
 @import './utilities';
 @import './variables';
 
-// @import './page-steles/main-page.scss';
-@import './page-steles/main-page2.scss';
+
+@import './page-steles/main-page.scss';
 @import './page-steles/resume-page.scss';
-// @import './page-steles/about-page.scss';
+@import './page-steles/about-page.scss';
+@import './page-steles/contact-page.scss';
 
 * {
     margin: 0;
