@@ -7,7 +7,6 @@ import {
   } from "react-router-dom";
 
 const NameBlock = () => (
-    <div className="gallery__item gallery__item--1">
     <Link to='/'>
     <div className="name">
         <div className="letter1">К</div>
@@ -25,9 +24,6 @@ const NameBlock = () => (
     </div>
 
     </Link>
-    </div> 
-
-
 );
 
 export default NameBlock;

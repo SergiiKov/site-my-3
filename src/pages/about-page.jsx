@@ -8,37 +8,28 @@ import {
 
 import NameBlock from '../component/name-block';
 import ContactBlock from '../component/contact-block';
+import HomeButton from '../component/home-button';
 
 const AboutPage = () => {
 
   return (
     <React.Fragment>
   
-  <div className='main2'>
-            <div className="gallery">
-            <NameBlock />
-           
-            <div className="gallery__item gallery__item--2">
-              
-            <Link to='/'>
-                    <div className="menu-item">
-                        <h2>Resume</h2>
-                    </div>
-                </Link>
-         
-            </div>
-            <div className="gallery__item gallery__item--3">
-        
-                    <div className="menu-item">
-                        <h2>Tesdsds</h2>
-                    </div>
-              
-            </div>
-            <ContactBlock />
-
-            </div>   
-        </div>
-
+  <div className="main-grid">
+    <div className="main-grid__item main-grid__item--1">
+        <NameBlock />
+    </div>
+    <div className="main-grid__item about-grid__item--1">
+        123
+      </div>  
+    <div className="main-grid__item main-grid__item--8">
+        <HomeButton />
+      </div>           
+    <div className="main-grid__item main-grid__item--6">
+        <ContactBlock />
+    </div>
+  </div>   
+      
     </React.Fragment>
  )    
 };

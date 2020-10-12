@@ -15,28 +15,27 @@ const Main = () => {
 
   return (
     <React.Fragment>
-  
-  <div className='main2'>
-            <div className="gallery">
-         
-             
-                    <NameBlock />
-       
-         
-           
-            <div className="gallery__item gallery__item--2">
-                <Link to='/about'>
-                    <div className="menu-item">
-                        <h2>Привіт!</h2>
-                    </div>
-                </Link>
-            </div>
-<HomeButton />
-  <ContactBlock />
+  <div>
+    <div className="main-grid">
+      <div className="main-grid__item main-grid__item--1">
+        <NameBlock />
+      </div>
 
-            </div>   
-        </div>
-
+      <div className="main-grid__item main-grid__item--2">
+        <Link to='/about'>
+          <div className="">
+            <h2>Привіт!</h2>
+          </div>
+        </Link>
+      </div>
+      <div className="main-grid__item main-grid__item--8">
+        <HomeButton />
+      </div>
+      <div className="main-grid__item main-grid__item--6">
+        <ContactBlock />
+      </div>
+    </div>   
+  </div>
     </React.Fragment>
  )    
 };

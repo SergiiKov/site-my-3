@@ -7,14 +7,12 @@ import {
   } from "react-router-dom";
 
 const HomeButton = () => (
-    <div className="gallery__item gallery__item--8">
     <Link to='/'>
     <div className="">
-Home Button
+        Home Button
     </div>
 
     </Link>
-    </div> 
 
 
 );

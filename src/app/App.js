@@ -10,7 +10,7 @@ import {
 import Main from '../pages/main-page';
 import AboutPage from '../pages/about-page';
 import Contact from '../pages/contact-page';
-
+import NameBlock from '../component/name-block';
 
 import '../component/sass/main.scss';
 
@@ -18,7 +18,7 @@ const App = () => {
   return (
  <React.Fragment>
      <Router>
-   {/* <Main2 /> */}
+ 
 
 
         <Switch>
@@ -27,6 +27,8 @@ const App = () => {
           <Route  path='/contact' component={Contact} />
         </Switch>
       </Router>
+
+
  </React.Fragment>
   );
 }
