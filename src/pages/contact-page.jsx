@@ -6,6 +6,8 @@ import {
   Link
 } from "react-router-dom";
 
+import NameBlock from '../component/name-block';
+
 const Contact = () => {
 
   return (
@@ -13,16 +15,8 @@ const Contact = () => {
   
   <div className='main2'>
             <div className="gallery">
-                <div className="gallery__item gallery__item--1">
-                    <div className="name">
-                        <div className="letter1">K</div>
-                        <div className="letter2">o</div>
-                        <div className="letter2">v</div>
-                        <div className="letter2">t</div>
-                        <div className="letter2">u</div>
-                        <div className="letter2">n</div>
-                    </div>
-                </div> 
+               
+            <NameBlock />
            
             <div className="gallery__item gallery__item--2">
               

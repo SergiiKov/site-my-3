@@ -1,8 +1,8 @@
 
 import React from 'react';
 
-const ResumePage = () => (
-    <div className='resume-text'>
+const ResumeText = () => (
+    <div className='resume-text '>
     <div className="row-full">
 
           <div className="col-1-of-3">
@@ -56,4 +56,4 @@ const ResumePage = () => (
     </div> 
 );
 
-export default ResumePage;
+export default ResumeText;

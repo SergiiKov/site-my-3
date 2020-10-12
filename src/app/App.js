@@ -8,9 +8,10 @@ import {
 
 
 import Main from '../pages/main-page';
-import About from '../pages/about-page';
-import Resume from '../pages/resume-page';
+import AboutPage from '../pages/about-page';
 import Contact from '../pages/contact-page';
+
+
 import '../component/sass/main.scss';
 
 const App = () => {
@@ -22,11 +23,10 @@ const App = () => {
 
         <Switch>
           <Route exact path='/' component={Main} />
-          <Route  path='/about' component={About} />
-          <Route  path='/resume' component={Resume} />
+          <Route  path='/about' component={AboutPage} />
           <Route  path='/contact' component={Contact} />
         </Switch>
-        </Router>
+      </Router>
  </React.Fragment>
   );
 }

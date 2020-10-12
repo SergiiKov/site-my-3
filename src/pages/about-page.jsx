@@ -6,23 +6,17 @@ import {
   Link
 } from "react-router-dom";
 
-const Resume = () => {
+import NameBlock from '../component/name-block';
+import ContactBlock from '../component/contact-block';
+
+const AboutPage = () => {
 
   return (
     <React.Fragment>
   
   <div className='main2'>
             <div className="gallery">
-                <div className="gallery__item gallery__item--1">
-                    <div className="name">
-                        <div className="letter1">K</div>
-                        <div className="letter2">o</div>
-                        <div className="letter2">v</div>
-                        <div className="letter2">t</div>
-                        <div className="letter2">u</div>
-                        <div className="letter2">n</div>
-                    </div>
-                </div> 
+            <NameBlock />
            
             <div className="gallery__item gallery__item--2">
               
@@ -40,6 +34,7 @@ const Resume = () => {
                     </div>
               
             </div>
+            <ContactBlock />
 
             </div>   
         </div>
@@ -48,4 +43,4 @@ const Resume = () => {
  )    
 };
 
-export default Resume;
+export default AboutPage;
