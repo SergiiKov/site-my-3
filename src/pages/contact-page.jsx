@@ -6,6 +6,8 @@ import axios from 'axios';
 // import Snackbar from '@material-ui/core/Snackbar';
 // import SendIcon from '@material-ui/icons/Send';
 
+import NameBlock from '../component/name-block';
+
   export default function ContactPage() {
 
     const [name, setName] = useState('');
@@ -89,6 +91,11 @@ import axios from 'axios';
 
     return (
       <React.Fragment>
+            <div className="contact">
+            <NameBlock />
+           
+            <div className="contact__item contact__item--2">
+
   <div className="contact-page">
   <div className="row-full">
     <div className="col-1-of-3">
@@ -165,6 +172,9 @@ import axios from 'axios';
                       autoHideDuration={4000}
                       onClose={() => setAlert(false)}
                     /> */}
+</div>
+
+</div>
 </div>
       </React.Fragment>   
     );

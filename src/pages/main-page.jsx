@@ -8,6 +8,8 @@ import {
 
 import NameBlock from '../component/name-block';
 import ContactBlock from '../component/contact-block';
+import HomeButton from '../component/home-button';
+
 
 const Main = () => {
 
@@ -16,11 +18,11 @@ const Main = () => {
   
   <div className='main2'>
             <div className="gallery">
-                <div className="gallery__item gallery__item--1">
-                <Link to='/'>
+         
+             
                     <NameBlock />
-                </Link>
-                </div> 
+       
+         
            
             <div className="gallery__item gallery__item--2">
                 <Link to='/about'>
@@ -29,6 +31,7 @@ const Main = () => {
                     </div>
                 </Link>
             </div>
+<HomeButton />
   <ContactBlock />
 
             </div>   
