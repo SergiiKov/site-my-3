@@ -1,4 +1,5 @@
 import React  from 'react';
+import { useSpring, animated } from 'react-spring';
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,7 +12,7 @@ import ContactBlock from '../component/contact-block';
 import HomeButton from '../component/home-button';
 
 
-const Main = () => {
+function Main() {
 
   return (
     <React.Fragment>
@@ -36,6 +37,8 @@ const Main = () => {
       </div>
     </div>   
   </div>
+ 
+
     </React.Fragment>
  )    
 };
