@@ -13,21 +13,25 @@ import { Component } from 'react';
 import NameBlock from '../component/name-block';
 import ContactBlock from '../component/contact-block';
 import HomeButton from '../component/home-button';
+
+
  
 function Particl() { 
+
     return ( 
       <div className="App"> 
       <div className='particles'>
-      {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo maxime veniam ad? */}
+     
       <div className="main-grid">
+
       <div className="main-grid__item main-grid__item--1">
         <NameBlock />
       </div>
 
       <div className="main-grid__item main-grid__item--2">
         <Link to='/about'>
-          <div className="">
-            <h2>Привіт!</h2>
+          <div className="rrr">
+            <h2 className="ttt">Привіт!</h2>
           </div>
         </Link>
       </div>
@@ -44,7 +48,7 @@ function Particl() {
  params={{
   "particles": {
       "number": {
-          "value": 160,
+          "value": 60,
           "density": {
               "enable": false
           }
@@ -63,7 +67,7 @@ function Particl() {
       "move": {
           "random": true,
           "speed": 1,
-          "direction": "top",
+          "direction": "right",
           "out_mode": "out"
       }
   },
